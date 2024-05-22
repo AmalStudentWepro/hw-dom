@@ -1,17 +1,17 @@
 let counter = 0;
 
 const counterValue = document.getElementById('counter-value');
-const incrementBtn = document.getElementById('increment-btn');
-const decrementBtn = document.getElementById('decrement-btn');
+const plus = document.getElementById('plus-btn');
+const minus = document.getElementById('minus-btn');
 const resetBtn = document.getElementById('reset');
 const randomBtn = document.getElementById('random-btn');
 
-incrementBtn.addEventListener('click', () => {
+plus.addEventListener('click', () => {
     counter++;
     counterValue.innerHTML = counter;
 });
 
-decrementBtn.addEventListener('click', () => {
+minus.addEventListener('click', () => {
     counter--;
     counterValue.innerHTML = counter;
 });
